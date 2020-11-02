@@ -49,11 +49,6 @@ swiper image {
 
 }
 
-.index_floor .floor_group .floor_list navigator:nth-last-child(-n+2) {
-
-  padding-top: 10rpx;
-
-}
 
 
 .index_floor .floor_group .floor_list navigator image {
