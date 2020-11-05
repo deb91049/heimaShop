@@ -1,1 +1,27 @@
 /* pages/category/category.wxss */
+page {
+  height: 100%;
+}
+.cates {
+  height: 100%;
+}
+.cates .cates_container {
+  height: calc(100vh - 90rpx);
+  display: flex;
+  background-color: #768;
+}
+.cates .cates_container .leftmenu {
+  flex: 2;
+  background-color: #465;
+}
+.cates .cates_container .leftmenu .menu_item {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.cates .cates_container .right_content {
+  flex: 5;
+  background-color: #135;
+}

@@ -1,2 +1,10 @@
-<!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<!-- pages/category/category.wxml -->
+<SearchInput></SearchInput>
+<view class="cates">
+    <view class="cates_container">
+        <scroll-view scroll-y class="leftmenu">
+            <view class="menu_item" wx:for="{{leftMenuList}}">{{item}}</view>
+        </scroll-view>
+        <scroll-view scroll-y class="right_content"></scroll-view>
+    </view>
+</view>
